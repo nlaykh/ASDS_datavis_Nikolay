@@ -52,7 +52,7 @@ The second part builds on the cleaned dataset to create interactive visualizatio
 
 ## Files
 - `Project_NikolayKhachatryan.ipynb`: Jupyter notebook containing both Part 1 (data cleaning and EDA) and Part 2 (advanced visualizations and insights).
-- `cleaned_hotel_bookings.csv`: The cleaned dataset used for the analysis. **Note:** This file has been excluded due to GitHub’s 100MB file size limit. Download it from [this link](https://drive.google.com/file/d/your-file-id/view?usp=sharing) and place it in the project directory.
+- `cleaned_hotel_bookings.csv`: The cleaned dataset used for the analysis. 
 - `.gitattributes`: Configuration file to handle line endings consistently across platforms.
 
 ## How to Run
