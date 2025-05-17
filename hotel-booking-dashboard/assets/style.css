@@ -1,0 +1,31 @@
+/* assets/style.css */
+body {
+    background-color: #F8F9FA; /* Light Gray background */
+    color: #333333; /* Dark gray text for contrast */
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF; /* White cards */
+}
+
+.card-header {
+    background-color: #1E90FF; /* Dodger Blue header */
+    color: #FFFFFF; /* White text for contrast */
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #1E90FF; /* Dodger Blue buttons */
+    border-color: #1E90FF;
+}
+
+.btn-primary:hover {
+    background-color: #104E8B; /* Darker blue for hover */
+    border-color: #104E8B;
+}
+
+.text-success {
+    color: #28A745; /* Green for positive insights */
+}
