@@ -6,7 +6,7 @@ from pages import guest_behaviors, revenue_cancellations
 
 # Initialize the Dash app with a custom Bootstrap theme and external stylesheet
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP, '/assets/style.css'], suppress_callback_exceptions=True)
-
+server = app.server
 # Define the navigation bar with custom colors
 navbar = dbc.NavbarSimple(
     children=[
@@ -42,4 +42,4 @@ def display_page(pathname):
 
 # Run the app
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run_server(host="0.0.0.0", port=10000, debug=True)
