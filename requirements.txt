@@ -1,8 +1,4 @@
 dash
 dash-bootstrap-components
 pandas
-<<<<<<< HEAD
 gunicorn
-=======
-gunicorn
->>>>>>> 67fa977bfb7b2be49c11cdcc21f5a5cbce458745
