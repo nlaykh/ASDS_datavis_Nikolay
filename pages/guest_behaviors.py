@@ -45,7 +45,7 @@ layout = dbc.Container([
                     ),
                     dcc.Graph(id="lead-time-plot"),
                     html.H5("Insight:"),
-                    html.P("Most bookings occur with lead times under 100 days, with a sharp peak at 0-10 days (likely last-minute bookings). Resort Hotels have a higher median lead time (~50 days) and a longer tail, compared to City Hotels (median ~30 days)."),
+                    html.P("Most bookings occur with lead times under 100 days, with a sharp peak at 0-10 days (likely last-minute bookings). Resort Hotels have a lower median lead time (~47 days) and a longer tail, compared to City Hotels (median ~50 days)."),
                     html.H5("Recommendation:"),
                     html.P("Resort Hotels should offer early-bird discounts for bookings made 3+ months in advance, while City Hotels can focus on last-minute marketing (e.g., flash sales).")
                 ])
